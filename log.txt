@@ -1,0 +1,39 @@
+Loading official fold split files...
+Train size:    139620
+Evaluate size: 29680
+Test size:     29680
+
+Per-device accuracy:
+  source_label  num_samples  accuracy
+0            a         3300  0.593939
+1            b         3290  0.423708
+2            c         3290  0.517325
+3           s1         3300  0.418788
+4           s2         3300  0.425758
+5           s3         3300  0.450909
+6           s4         3300  0.395758
+7           s5         3300  0.414242
+8           s6         3300  0.360909
+
+=== Development-set comparison ===
+             model  accuracy  balanced_accuracy
+0  cnn_logmel_eval  0.444575           0.444523
+
+=== Final test evaluation: CNN main model ===
+                                                                                                                                                                                                                          
+Per-device accuracy:
+  source_label  num_samples  accuracy
+0            a         3300  0.593939
+1            b         3290  0.423708
+2            c         3290  0.517325
+3           s1         3300  0.418788
+4           s2         3300  0.425758
+5           s3         3300  0.450909
+6           s4         3300  0.395758
+7           s5         3300  0.414242
+8           s6         3300  0.360909
+Test loss: 1.7441, Test accuracy: 0.4446
+
+=== Final test results ===
+             model  accuracy  balanced_accuracy
+0  cnn_logmel_test  0.444575           0.444523

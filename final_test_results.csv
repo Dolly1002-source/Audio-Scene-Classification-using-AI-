@@ -1,0 +1,2 @@
+model,accuracy,balanced_accuracy
+cnn_logmel_test,0.44457547169811323,0.44452315952315946
